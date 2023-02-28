@@ -1,0 +1,174 @@
+.mainfilter-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  // justify-content: center;
+  gap: 100px;
+  // background-color: green;
+
+  // .profiles-container::-webkit-scrollbar {
+  //     display: none;
+  // }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  // .profiles-container {
+  //   -ms-overflow-style: none;  /* IE and Edge */
+  //   scrollbar-width: none;  /* Firefox */
+  // }
+  .filters-container {
+    width: 470px;
+    // background-color: #ea1c1c;
+    display: flex;
+    flex-direction: column;
+    height: 108vh;
+    overflow: auto;
+    padding: 100px 0px;
+    border: 1px solid black;
+
+    .allfilters-containers {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .filters-nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    h2 {
+      text-align: left;
+      font: normal normal 600 24px/35px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+    }
+
+    .location-filter select {
+      width: 220px;
+      height: 35px;
+      text-align: left;
+      font: normal normal normal 18px/27px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #a9a9a9;
+    }
+
+    .search-container input {
+      width: 220px;
+      height: 35px;
+      text-align: left;
+      font: normal normal normal 18px/27px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #a9a9a9;
+    }
+
+    .role_filter select {
+      width: 220px;
+      height: 35px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #A9A9A9;
+      opacity: 1;
+    }
+
+    .workmode-buttons-container button {
+      width: 220px;
+      height: 35px;
+      font: normal normal normal 18px/27px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #a9a9a9;
+      margin-top: 5px;
+    }
+
+    .notice-period-buttons-container button {
+      width: 220px;
+      height: 35px;
+      font: normal normal normal 18px/27px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #a9a9a9;
+      margin-top: 5px;
+    }
+
+    .job-type-contianers button {
+      width: 220px;
+      height: 35px;
+      font: normal normal normal 18px/27px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #a9a9a9;
+      margin-top: 5px;
+    }
+  }
+
+
+  .card {
+    width: 393px;
+    height: 323px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #e7e7e7;
+    opacity: 1;
+  }
+
+  .image-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .user-profile-image img {
+    height: 108px;
+    width: 108px;
+  }
+
+  .internal-container {
+    padding: 13px;
+  }
+
+  .view-button-container button {
+    border: none;
+    background-color: transparent;
+
+  }
+
+  .profiles-container {
+    width: 93.5rem;
+    height: 100vh;
+    overflow: auto;
+    background-color: #f5f5f5;
+    // display: grid;
+    // grid-template-columns: auto auto auto;
+
+    .cardmain_container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 24.6px;
+      place-content: center
+    }
+
+    ::-webkit-scrollbar {
+      width: 20px;
+    }
+
+  }
+
+
+}
